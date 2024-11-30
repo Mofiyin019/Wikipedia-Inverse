@@ -1,0 +1,60 @@
+/* Container for the entire page */
+.page-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Main content area */
+.main-content {
+    flex: 2;
+    margin-right: 20px;
+}
+
+/* Sidebar card */
+.sidebar {
+    flex: 1;
+    max-width: 300px;
+}
+
+/* Card styling */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card-content h3 {
+    margin: 0 0 5px;
+    font-size: 1em;
+    text-align: center;
+    color: #333;
+}
+
+.card-content p {
+    margin: 5px 0;
+    font-size: 0.85em;
+    color: #666;
+    line-height: 1.4;
+}
+
+.card-content a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.card-content a:hover {
+    text-decoration: underline;
+}
